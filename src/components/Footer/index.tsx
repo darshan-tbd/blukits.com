@@ -3,13 +3,14 @@
 import Link from "next/link";
 import Logo from "@/components/ui/Logo";
 import company from "@/data/company.json";
+import servicesData from "@/data/services.json";
 
 const Footer = () => {
   return (
     <footer className="relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
+          <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-4/12">
             <div className="mb-12 max-w-[360px] lg:mb-16">
               <div className="mb-8">
                 <Logo height={32} />
@@ -49,24 +50,27 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+          <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-3/12">
             <div className="mb-12 lg:mb-16">
               <p className="mb-10 text-xl font-bold text-black dark:text-white">
                 Services
               </p>
               <ul>
-                {[
-                  { label: "All Services", href: "/services/" },
-                  { label: "Web Development", href: "/services/web-development/" },
-                  { label: "Mobile Apps", href: "/services/mobile-app-development/" },
-                  { label: "Software Consulting", href: "/services/software-consulting/" },
-                ].map((link) => (
-                  <li key={link.href}>
+                <li>
+                  <Link
+                    href="/services/"
+                    className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    All Services
+                  </Link>
+                </li>
+                {servicesData.map((service) => (
+                  <li key={service.slug}>
                     <Link
-                      href={link.href}
+                      href={`/services/${service.slug}/`}
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      {link.label}
+                      {service.title}
                     </Link>
                   </li>
                 ))}
