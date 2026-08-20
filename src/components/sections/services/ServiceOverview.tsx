@@ -48,7 +48,7 @@ const ServiceOverview = ({
               </h2>
               <p className="max-w-[640px] text-body-color dark:text-body-color-dark">
                 A detailed look at how BluKits Technologies delivers {title.toLowerCase()}{" "}
-                for organisations across India.
+                for organisations globally.
               </p>
             </div>
 

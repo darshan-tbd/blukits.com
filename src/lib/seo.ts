@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import company from "@/data/company.json";
 
 const OG_IMAGE_URL = `${company.url}/images/og-default.png`;
-const OG_IMAGE_ALT = `${company.brandName} — IT and Software Development Company in India`;
+const OG_IMAGE_ALT = `${company.brandName} — IT and Software Development Company`;
 
 type SEOProps = {
   title: string;
@@ -41,7 +41,7 @@ export function buildMetadata({
       description,
       url,
       siteName: company.brandName,
-      locale: "en_IN",
+      locale: "en_US",
       type: ogType,
       images: [
         {
@@ -92,10 +92,7 @@ export function organizationSchema() {
     },
     foundingDate: String(company.establishedYear),
     description: company.description,
-    areaServed: {
-      "@type": "Country",
-      name: "India",
-    },
+    areaServed: "Worldwide",
     ...(sameAs.length > 0 ? { sameAs } : {}),
   };
 }
@@ -134,7 +131,7 @@ export function serviceSchema(
       name: company.brandName,
       url: company.url,
     },
-    areaServed: "India",
+    areaServed: "Worldwide",
     url: `${company.url}/services/${slug}/`,
     image: `${company.url}/images/og-default.png`,
   };

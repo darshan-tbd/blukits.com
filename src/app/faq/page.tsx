@@ -13,7 +13,7 @@ export const metadata = buildMetadata({
     "FAQ",
     "software development questions",
     "BluKits Technologies FAQ",
-    "IT services India questions",
+    "IT services questions",
     "software project inquiry",
   ],
   path: "/faq/",

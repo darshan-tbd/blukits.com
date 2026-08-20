@@ -55,7 +55,7 @@ const BlogListContent = ({ posts }: BlogListContentProps) => {
             </h1>
             <p className="text-base leading-relaxed text-body-color dark:text-body-color-dark md:text-lg">
               Practical articles on web development, mobile apps, cloud, security, and
-              software delivery for businesses across India.
+              software delivery for modern businesses.
             </p>
           </motion.div>
 

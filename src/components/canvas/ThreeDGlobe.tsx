@@ -10,10 +10,10 @@ interface CityNode {
 }
 
 const cities: CityNode[] = [
-  { name: "Vadodara (HQ)", lat: 22.3, lon: 73.2, label: "HQ Vadodara" },
-  { name: "Mumbai Node", lat: 19.0, lon: 72.8, label: "Mumbai Node" },
-  { name: "London Node", lat: 51.5, lon: -0.12, label: "London Cache" },
-  { name: "San Francisco Node", lat: 37.77, lon: -122.42, label: "SF Proxy" }
+  { name: "Primary Node", lat: 22.3, lon: 73.2, label: "Primary HQ" },
+  { name: "Region Alpha", lat: 19.0, lon: 72.8, label: "Node Alpha" },
+  { name: "Region Beta", lat: 51.5, lon: -0.12, label: "Node Beta" },
+  { name: "Region Gamma", lat: 37.77, lon: -122.42, label: "Node Gamma" }
 ];
 
 export default function ThreeDGlobe() {

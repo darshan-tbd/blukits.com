@@ -34,7 +34,7 @@ const HomeHero = () => {
                 IT and Software Development
               </span>
               <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl md:text-[42px] md:leading-tight">
-                Trusted Software Development Partner for Modern Businesses in India
+                Trusted Software Development Partner for Modern Businesses
               </h1>
               <p className="mb-10 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg">
                 {company.brandName} delivers web, mobile, desktop, and enterprise software with

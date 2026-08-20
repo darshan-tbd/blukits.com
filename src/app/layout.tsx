@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: `${company.brandName} | IT and Software Development Company in India`,
+    default: `${company.brandName} | IT and Software Development Company`,
     template: `%s | ${company.brandName}`,
   },
   description: company.description,

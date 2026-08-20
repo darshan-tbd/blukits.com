@@ -15,8 +15,8 @@ import ThreeDGlobe from "@/components/canvas/ThreeDGlobe";
 const highlights = [
   { icon: Calendar, label: "Established", value: String(company.establishedYear) },
   { icon: Globe, label: "Online Since", value: company.domainRegisteredDate.split("-")[0] },
-  { icon: Building2, label: "Headquarters", value: "Vadodara, India" },
-  { icon: MapPin, label: "Serving", value: company.country },
+  { icon: Building2, label: "Presence", value: "Global Operations" },
+  { icon: MapPin, label: "Delivery", value: "Remote & On-Site" },
 ];
 
 const AboutIntro = () => {
@@ -50,8 +50,7 @@ const AboutIntro = () => {
               Building Software That Powers Business Growth
             </h2>
             <p className="mb-5 text-base leading-relaxed text-body-color dark:text-body-color-dark md:text-lg">
-              {company.brandName} is an IT and software development company headquartered in
-              Vadodara, India. Since {company.establishedYear}, we have helped organisations
+              {company.brandName} is an IT and software development company. Since {company.establishedYear}, we have helped organisations
               design, build, and maintain business-critical applications across web, mobile,
               desktop, and cloud platforms.
             </p>

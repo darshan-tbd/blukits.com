@@ -7,7 +7,7 @@ const milestones = [
   {
     year: "2011",
     title: "Company Founded",
-    desc: `${company.brandName} established in Vadodara with a focus on custom software development.`,
+    desc: `${company.brandName} established with a focus on custom software development.`,
   },
   {
     year: "2011",
@@ -22,12 +22,12 @@ const milestones = [
   {
     year: "2018",
     title: "Enterprise Growth",
-    desc: "Delivered larger-scale enterprise applications and API integration projects across India.",
+    desc: "Delivered larger-scale enterprise applications and API integration projects.",
   },
   {
     year: "2021",
     title: "Remote Delivery",
-    desc: "Strengthened remote collaboration models to serve clients nationwide with distributed teams.",
+    desc: "Strengthened remote collaboration models to serve clients with distributed teams.",
   },
   {
     year: "Today",
@@ -50,8 +50,8 @@ const AboutTimeline = () => {
             Our Journey
           </h2>
           <p className="mx-auto max-w-[560px] text-body-color dark:text-body-color-dark">
-            From a Vadodara-based startup in {company.establishedYear} to a trusted software
-            partner serving businesses across {company.country}.
+            From our founding in {company.establishedYear} to a trusted software
+            partner serving businesses globally.
           </p>
         </motion.div>
 

@@ -19,8 +19,7 @@ const AboutLocation = () => {
             Where We Are
           </h2>
           <p className="mx-auto max-w-[560px] text-body-color dark:text-body-color-dark">
-            Based in Vadodara, serving clients across India with on-site and remote engagement
-            models.
+            Serving clients globally with on-site and remote engagement models.
           </p>
         </motion.div>
 

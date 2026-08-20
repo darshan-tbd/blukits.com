@@ -11,8 +11,8 @@ import company from "@/data/company.json";
 
 export const metadata = buildMetadata({
   title: "About Us",
-  description: `Learn about ${company.brandName}, an India-based software development company established in ${company.establishedYear}.`,
-  keywords: ["about BluKits", "software company India", "IT company Vadodara"],
+  description: `Learn about ${company.brandName}, a software development company established in ${company.establishedYear}.`,
+  keywords: ["about BluKits", "software company", "IT company"],
   path: "/about/",
 });
 

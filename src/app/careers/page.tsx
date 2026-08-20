@@ -4,8 +4,8 @@ import CareersContent from "./CareersContent";
 export const metadata = buildMetadata({
   title: "Careers",
   description:
-    "Explore career opportunities at BluKits Technologies. Join our software development team in Vadodara or work remotely.",
-  keywords: ["careers", "software jobs India", "developer jobs Vadodara"],
+    "Explore career opportunities at BluKits Technologies. Join our software development team or work remotely.",
+  keywords: ["careers", "software jobs", "developer jobs"],
   path: "/careers/",
 });
 

@@ -3,7 +3,7 @@
     "id": "job-1",
     "title": "Senior Full Stack Developer",
     "department": "Engineering",
-    "location": "Vadodara / Remote",
+    "location": "Remote",
     "type": "Full-time",
     "description": "Lead development of scalable web applications using modern JavaScript frameworks and RESTful services.",
     "requirements": [
@@ -17,7 +17,7 @@
     "id": "job-2",
     "title": "Mobile Application Developer",
     "department": "Engineering",
-    "location": "Vadodara / Remote",
+    "location": "Remote",
     "type": "Full-time",
     "description": "Build and maintain cross-platform and native mobile applications for enterprise and consumer use cases.",
     "requirements": [
@@ -31,7 +31,7 @@
     "id": "job-3",
     "title": "UI/UX Designer",
     "department": "Design",
-    "location": "Vadodara / Remote",
+    "location": "Remote",
     "type": "Full-time",
     "description": "Create user-centred interface designs, wireframes, and prototypes for web and mobile products.",
     "requirements": [
@@ -45,7 +45,7 @@
     "id": "job-4",
     "title": "QA Engineer",
     "department": "Quality Assurance",
-    "location": "Vadodara / Remote",
+    "location": "Remote",
     "type": "Full-time",
     "description": "Plan and execute test cases, report defects, and support release quality across software projects.",
     "requirements": [
@@ -59,7 +59,7 @@
     "id": "job-5",
     "title": ".NET Application Developer",
     "department": "Engineering",
-    "location": "Vadodara / Remote",
+    "location": "Remote",
     "type": "Full-time",
     "description": "Develop and enhance Windows and enterprise applications using the .NET ecosystem.",
     "requirements": [
@@ -73,7 +73,7 @@
     "id": "job-6",
     "title": "Business Analyst",
     "department": "Delivery",
-    "location": "Vadodara / Remote",
+    "location": "Remote",
     "type": "Full-time",
     "description": "Gather requirements, document workflows, and bridge communication between clients and engineering teams.",
     "requirements": [
@@ -87,7 +87,7 @@
     "id": "job-7",
     "title": "DevOps Engineer",
     "department": "Infrastructure",
-    "location": "Vadodara / Remote",
+    "location": "Remote",
     "type": "Full-time",
     "description": "Support CI/CD pipelines, cloud deployments, and environment management for client applications.",
     "requirements": [
@@ -101,7 +101,7 @@
     "id": "job-8",
     "title": "Junior Software Developer",
     "department": "Engineering",
-    "location": "Vadodara / Remote",
+    "location": "Remote",
     "type": "Full-time",
     "description": "Contribute to feature development, bug fixes, and code quality under senior developer guidance.",
     "requirements": [

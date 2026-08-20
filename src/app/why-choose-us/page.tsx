@@ -6,7 +6,7 @@ import company from "@/data/company.json";
 
 export const metadata = buildMetadata({
   title: "Why Choose Us",
-  description: `Discover why businesses across India choose ${company.brandName} for software development.`,
+  description: `Discover why businesses choose ${company.brandName} for software development.`,
   keywords: ["why choose BluKits", "software development partner"],
   path: "/why-choose-us/",
 });
@@ -38,9 +38,9 @@ const reasons = [
       "Dedicated teams, staff augmentation, or end-to-end project delivery—we adapt to your internal capacity and priorities.",
   },
   {
-    title: "India-Focused Expertise",
+    title: "Domain & Operational Expertise",
     content:
-      "We understand the operational context of Indian businesses including compliance considerations, user behaviour, and scaling challenges.",
+      "We understand the operational context of businesses including compliance considerations, user behaviour, and scaling challenges.",
   },
 ];
 

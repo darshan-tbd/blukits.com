@@ -9,7 +9,7 @@ export const metadata = buildMetadata({
   title: "Software Development Services",
   description:
     "Explore comprehensive IT and software development services from BluKits Technologies including web, mobile, cloud, and enterprise solutions.",
-  keywords: ["software services", "IT services India", "web development", "mobile apps"],
+  keywords: ["software services", "IT services", "web development", "mobile apps"],
   path: "/services/",
 });
 
@@ -21,7 +21,7 @@ export default function ServicesPage() {
       <ScrollUp />
       <Breadcrumb
         pageName="Services"
-        description="End-to-end software development services for businesses across India."
+        description="End-to-end software development services for modern businesses."
       />
       <section className="pb-16 pt-8 md:pb-20 lg:pb-28">
         <div className="container">

@@ -7,7 +7,7 @@ import company from "@/data/company.json";
 export const metadata = buildMetadata({
   title: "Blog",
   description: `Read software development insights, guides, and best practices from ${company.brandName}.`,
-  keywords: ["software blog", "web development articles", "IT insights India"],
+  keywords: ["software blog", "web development articles", "IT insights"],
   path: "/blog/",
 });
 

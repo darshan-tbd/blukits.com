@@ -21,7 +21,7 @@ const pillars = [
 const stats = [
   { value: "18+", label: "Services" },
   { value: String(company.establishedYear), label: "Since" },
-  { value: "India", label: "HQ" },
+  { value: "Global", label: "Reach" },
 ];
 
 const HeroVisual = () => {

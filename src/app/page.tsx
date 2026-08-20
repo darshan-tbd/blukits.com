@@ -12,11 +12,11 @@ import { buildMetadata } from "@/lib/seo";
 import company from "@/data/company.json";
 
 export const metadata = buildMetadata({
-  title: "IT and Software Development Company in India",
-  description: `${company.brandName} provides web, mobile, desktop, and enterprise software development services for businesses across India.`,
+  title: "IT and Software Development Company",
+  description: `${company.brandName} provides web, mobile, desktop, and enterprise software development services for businesses globally.`,
   keywords: [
-    "software development company India",
-    "IT services Vadodara",
+    "software development company",
+    "IT services",
     "web development",
     "mobile app development",
     "BluKits Technologies",
